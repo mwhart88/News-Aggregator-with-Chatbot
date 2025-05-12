@@ -1,6 +1,19 @@
 # AI-Powered News Aggregator with Chatbot
 
-This intelligent news aggregation platform automatically categorizes news articles, identifies important stories, and provides a conversational interface to ask questions about current events using a RAG-powered chatbot.
+## 📰 About
+
+Stay informed effortlessly with this intelligent news platform that transforms how you consume Australian news. By automatically collecting, categorizing, and prioritizing articles from multiple outlets, it cuts through the noise to deliver what matters. Ask natural questions about current events and get accurate, contextual responses powered by advanced RAG technology. No more endless scrolling or information overload - just clean, categorized news and a smart assistant to help you make sense of it all.
+
+## 📱 Screenshots
+
+### News Dashboard
+![News Aggregator Dashboard](media/NewsBot%20Project%20Overview.png)
+
+### Article Card
+![Article Detail View](media/NewsBot%20%20Article%20Card.png)
+
+### RAG-Powered Chatbot
+![Chatbot Interface](media/NewsBot%20RAG%20Chatbot.png)
 
 ## 🎯 Key Features
 
