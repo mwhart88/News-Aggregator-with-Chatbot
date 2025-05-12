@@ -1,19 +1,37 @@
-version: '3'
+version: '3.8'
 
 services:
-  news-api:
-    build: .
-    ports:
-      - "5000:5000"
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: news-aggregator-backend
     volumes:
       - ./datasets:/app/datasets
       - ./chroma_db:/app/chroma_db
     env_file:
       - .env
+    ports:
+      - "8000:8000"
     restart: unless-stopped
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:5000/api/highlights"]
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/articles?category=general"]
       interval: 30s
       timeout: 10s
       retries: 3
-      start_period: 30s 
+      start_period: 30s
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: news-aggregator-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  chroma_db:
+    driver: local 
