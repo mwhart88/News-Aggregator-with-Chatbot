@@ -1,0 +1,76 @@
+Date Scraped,Title,news_summary,news_card_image,Date Published,Link,Publication,Author,text,id,predicted_category,similarity,cluster,cluster_size,title_lc,is_priority,highlight_score
+2025-05-12,how bunnings crushed its competitors | abc news daily podcast,nil,,2025-05-12 9:53 AM,https://www.youtube.com/watch?v=jweTLOk_Qxg,abc news (australia),abc news (australia),"how bunnings crushed its competitors | abc news daily podcast 
+
+ ",101,finance,0.5098958015441895,1,412,how bunnings crushed its competitors | abc news daily podcast,False,412
+2025-05-12,"meat prices could skyrocket, as victorian farmers struggle with drought | 9 news australia",nil,,2025-05-12 8:03 AM,https://www.youtube.com/watch?v=9y-ErhgqjJU,9news australia,9 news australia,"meat prices could skyrocket, as victorian farmers struggle with drought | 9 news australia 
+
+ ",124,finance,0.4833555817604065,1,412,"meat prices could skyrocket, as victorian farmers struggle with drought | 9 news australia",False,412
+2025-05-12,macquarie bank sacked dozens of staff members over inappropriate behaviour | 9 news australia,nil,,2025-05-12 7:53 AM,https://www.youtube.com/watch?v=6plUHrRz-fQ,9news australia,9 news australia,"macquarie bank sacked dozens of staff members over inappropriate behaviour | 9 news australia 
+
+ ",125,finance,0.472857266664505,1,412,macquarie bank sacked dozens of staff members over inappropriate behaviour | 9 news australia,False,412
+2025-05-12,lower prices to hit shelves at woolworths,"woolworths has announced it has lowered prices on almost 400 products, including household staples, amid cost-of-living pressures.",https://content.api.news/v3/images/bin/24d2dc29ed0a5c12d3b715cc8a53bf0d?width=320,2025-05-12 12:07 AM,https://www.news.com.au/lifestyle/food/drink/woolworths-slashes-prices-on-popular-staples/news-story/7d30ffd1a6d43262d72329a2d3d4e57e?from=rss-basic,rss news.com.au — australia’s #1 news site | national news,nil,"lower prices to hit shelves at woolworths 
+
+ woolworths has announced it has lowered prices on almost 400 products, including household staples, amid cost-of-living pressures.",164,finance,0.5094662308692932,1,412,lower prices to hit shelves at woolworths,False,412
+2025-05-12,cash purchase of boat leads to $600m cocaine haul by nsw police | abc news,nil,,2025-05-11 4:27 PM,https://www.youtube.com/watch?v=cwVikAugTnw,abc news (australia),abc news (australia),"cash purchase of boat leads to $600m cocaine haul by nsw police | abc news 
+
+ ",219,finance,0.5362530946731567,1,412,cash purchase of boat leads to $600m cocaine haul by nsw police | abc news,False,412
+2025-05-12,who stole my recipe? maehashi and bellamy must realise they’re already cooked,nil,"https://static.ffx.io/images/$zoom_1,$multiply_0.7554,$ratio_1.777778,$width_1059,$x_0,$y_0/t_crop_custom/q_86,f_auto/9a10df55cf465ee97bcad4d662ede807ce8d7e44",10/05/2025,https://www.smh.com.au/national/who-stole-my-recipe-maehashi-and-bellamy-must-realise-they-re-already-cooked-20250508-p5lxoj.html?ref=rss&utm_medium=rss&utm_source=rss_national,sydney morning herald - national,malcolm knox,"who stole my recipe? maehashi and bellamy must realise they’re already cooked 
+
+ ",96,lifestyle,0.6203322410583496,1,412,who stole my recipe? maehashi and bellamy must realise they’re already cooked,True,1412
+2025-05-12,canberra hospital study finds therapy dogs help reduce pain and anxiety in intensive care | abc news,nil,,2025-05-12 9:30 AM,https://www.youtube.com/watch?v=tGqDih3x3MY,abc news (australia),abc news (australia),"canberra hospital study finds therapy dogs help reduce pain and anxiety in intensive care | abc news 
+
+ ",109,lifestyle,0.5589354038238525,1,412,canberra hospital study finds therapy dogs help reduce pain and anxiety in intensive care | abc news,True,1412
+2025-05-12,who stole my recipe? maehashi and bellamy must realise they’re already cooked,nil,"https://static.ffx.io/images/$zoom_1,$multiply_0.7554,$ratio_1.777778,$width_1059,$x_0,$y_0/t_crop_custom/q_86,f_auto/9a10df55cf465ee97bcad4d662ede807ce8d7e44",2025-05-10 9:30 AM,https://www.smh.com.au/national/who-stole-my-recipe-maehashi-and-bellamy-must-realise-they-re-already-cooked-20250508-p5lxoj.html?ref=rss&utm_medium=rss&utm_source=rss_national,sydney morning herald - national,malcolm knox,"who stole my recipe? maehashi and bellamy must realise they’re already cooked 
+
+ ",407,lifestyle,0.6203322410583496,1,412,who stole my recipe? maehashi and bellamy must realise they’re already cooked,True,1412
+2025-05-12,melbourne man dies after jumping off boat in thailand,nil,"https://static.ffx.io/images/$width_800,$height_450/t_crop_fill/q_86,f_jpg/6d81f606385967719d65b9e8611b10ff858d6cdf",10/05/2025,https://www.smh.com.au/national/melbourne-man-dies-after-jumping-off-boat-in-thailand-20250510-p5ly52.html?ref=rss&utm_medium=rss&utm_source=rss_national,sydney morning herald - national,nil,"melbourne man dies after jumping off boat in thailand 
+
+ ",22,lifestyle,0.512499988079071,1,412,melbourne man dies after jumping off boat in thailand,False,412
+2025-05-12,toxic algal bloom impacts multiple beaches across south australia | abc news,nil,,10/05/2025,https://www.youtube.com/watch?v=9GcY0Zmn5io,abc news (australia),abc news (australia),"toxic algal bloom impacts multiple beaches across south australia | abc news 
+
+ ",49,lifestyle,0.497733473777771,1,412,toxic algal bloom impacts multiple beaches across south australia | abc news,False,412
+2025-05-12,audi cost cutting could see it sell italdesign - report,"the company behind automotive icons, such as the volkswagen golf, fiat uno, bmw m1 and dmc delorean, could be sold by audi.",https://images.7news.com.au/publication/C-18650485/def7314ff1a16686242f3180fbfd1aeaeec1c5ed-16x9-x0y207w3973h2235.jpg,11/05/2025,https://7news.com.au/motoring/audi-cost-cutting-could-see-it-sell-italdesign-report-c-18650485,7news.com.au,derek fung,"audi cost cutting could see it sell italdesign - report 
+
+ the company behind automotive icons, such as the volkswagen golf, fiat uno, bmw m1 and dmc delorean, could be sold by audi.",0,music,0.5355744361877441,1,412,audi cost cutting could see it sell italdesign - report,False,412
+2025-05-12,"country music star johnny rodriguez has died, aged 73",the star’s daughter told fans the sad news in an emotional farewell to her father.,https://images.7news.com.au/publication/C-18648423/caf088f899d424732b2a78672770cee84e7eda85-16x9-x0y98w1514h851.jpg,10/05/2025,https://7news.com.au/sunrise/entertainment/country-music-star-johnny-rodriguez-has-died-aged-73-c-18648423,7news.com.au,caleb taylor,"country music star johnny rodriguez has died, aged 73 
+
+ the star’s daughter told fans the sad news in an emotional farewell to her father.",11,music,0.4706980884075165,1,412,"country music star johnny rodriguez has died, aged 73",False,412
+2025-05-12,michael mosley’s son jack gives rare insight into his father almost one year since his tragic death in greece,"mosley died on the greek island of symi, after an ill-fated walk.",https://images.7news.com.au/publication/C-18648074/8004b58e694bf42db33995a037bb7613451bbc98-16x9-x0y0w1304h734.jpg,10/05/2025,https://7news.com.au/sunrise/michael-mosleys-son-jack-gives-rare-insight-into-his-father-almost-one-year-since-his-tragic-death-in-greece--c-18648074,7news.com.au,caleb taylor,"michael mosley’s son jack gives rare insight into his father almost one year since his tragic death in greece 
+
+ mosley died on the greek island of symi, after an ill-fated walk.",27,music,0.561845064163208,1,412,michael mosley’s son jack gives rare insight into his father almost one year since his tragic death in greece,False,412
+2025-05-12,petals of love: three million blooms for mums this mother’s day,nil,"https://static.ffx.io/images/$zoom_0.29478768518518517,$multiply_0.7554,$ratio_1.777778,$width_1059,$x_53,$y_153/t_crop_custom/q_86,f_auto/f3e10746cd2bf3eed2d46834171ee529699d383b",10/05/2025,https://www.smh.com.au/national/victoria/petals-of-love-three-million-blooms-for-mums-this-mother-s-day-20250507-p5lxcp.html?ref=rss&utm_medium=rss&utm_source=rss_national,sydney morning herald - national,madeleine heffernan,"petals of love: three million blooms for mums this mother’s day 
+
+ ",45,music,0.5081098675727844,1,412,petals of love: three million blooms for mums this mother’s day,False,412
+2025-05-12,iconic radio host dies aged 58,legendary aussie community radio and music scene presenter paris pompor has died aged 58.,https://content.api.news/v3/images/bin/8a6dbb63034e6729fbc0acd0c49a21bf?width=320,10/05/2025,https://www.news.com.au/entertainment/celebrity-life/celebrity-deaths/vale-paris-pompor-local-radio-legend-dies-aged-58/news-story/1e8e32fc4b9e8fbf7f6b503e1ee509b7?from=rss-basic,rss news.com.au — australia’s #1 news site | national news,nil,"iconic radio host dies aged 58 
+
+ legendary aussie community radio and music scene presenter paris pompor has died aged 58.",54,music,0.4744083881378174,1,412,iconic radio host dies aged 58,False,412
+2025-05-12,trump vs chinese: the unexpected victim of the tariff war that will (literally) blow up,nil,,10/05/2025,https://www.youtube.com/watch?v=Quz7RFEAikM,the australian,the australian,"trump vs chinese: the unexpected victim of the tariff war that will (literally) blow up 
+
+ ",13,politics,0.479523241519928,1,412,trump vs chinese: the unexpected victim of the tariff war that will (literally) blow up,True,1412
+2025-05-12,"large rallies held protesting sexual violence, anger that crisis not properly addressed during election",nil,https://i.guim.co.uk/img/media/2eed384f90d0aa3a3576251ca845c35083c67431/239_0_2388_1911/master/2388.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=30ad900b464300e72bc24153166e2879,10/05/2025,https://www.theguardian.com/society/2025/may/10/large-rallies-held-protesting-sexual-violence-anger-that-crisis-not-properly-addressed-during-election,australia news | the guardian,australian associated press,"large rallies held protesting sexual violence, anger that crisis not properly addressed during election 
+
+ ",16,politics,0.40078336000442505,1,412,"large rallies held protesting sexual violence, anger that crisis not properly addressed during election",True,1412
+2025-05-12,world war ii hero honoured in military state funeral | 9 news australia,nil,,10/05/2025,https://www.youtube.com/watch?v=gxvaIFtU0cg,9news australia,9 news australia,"world war ii hero honoured in military state funeral | 9 news australia 
+
+ ",38,politics,0.5016745328903198,1,412,world war ii hero honoured in military state funeral | 9 news australia,True,1412
+2025-05-12,putin marks ww2 victory alongside xi as ukraine war continues | abc news,nil,,10/05/2025,https://www.youtube.com/watch?v=3oSgaL5MsE8,abc news (australia),abc news (australia),"putin marks ww2 victory alongside xi as ukraine war continues | abc news 
+
+ ",41,politics,0.46674150228500366,1,412,putin marks ww2 victory alongside xi as ukraine war continues | abc news,True,1412
+2025-05-12,first nations voters on the election result | abc news,nil,,10/05/2025,https://www.youtube.com/watch?v=JpIiqTVnYrg,abc news (australia),abc news (australia),"first nations voters on the election result | abc news 
+
+ ",60,politics,0.4364273250102997,1,412,first nations voters on the election result | abc news,True,1412
+2025-05-12,jamie melham goes back-to-back in the goodwood with victory on reserve bank ,"the champion jockey triumphed on reserve bank, 12 months after winning the morphettville feature on benedetta.",https://images.7news.com.au/publication/C-18648861/1d57684e261f7f9978372ec8e1725bfeb90c4a77-16x9-x0y0w1280h720.jpg,10/05/2025,https://7news.com.au/sport/horse-racing/jamie-melham-goes-back-to-back-in-the-goodwood-with-victory-on-reserve-bank--c-18648861,7news.com.au,craig brennan,"jamie melham goes back-to-back in the goodwood with victory on reserve bank  
+
+ the champion jockey triumphed on reserve bank, 12 months after winning the morphettville feature on benedetta.",12,sports,0.5675159692764282,1,412,jamie melham goes back-to-back in the goodwood with victory on reserve bank ,True,1412
+2025-05-12,supercars sprint thriller decided by 0.0550 seconds as matt payne claims surprise victory,‘you’re not even thinking when you’re in those situations.’,https://images.7news.com.au/publication/C-18656720/7673eafb8bcf0a7ae4a48a93418f038b9a8b81bd-16x9-x0y0w1280h720.jpg,2025-05-11 6:19 PM,https://7news.com.au/sport/supercars/supercars-sprint-thriller-decided-by-00550-seconds-as-matt-payne-claims-surprise-victory-c-18656720,7news.com.au,harrison reid,"supercars sprint thriller decided by 0.0550 seconds as matt payne claims surprise victory 
+
+ ‘you’re not even thinking when you’re in those situations.’",204,sports,0.5521302223205566,1,412,supercars sprint thriller decided by 0.0550 seconds as matt payne claims surprise victory,True,1412
+2025-05-12,brisbane broncos star ezra mam lands in hot water again during comeback game,the 22-year-old was slapped with a nine-week suspension for driving unlicensed with drugs in his system.,https://images.7news.com.au/publication/C-18655520/d4c46871771c3f46600fc60a314e29ca5fc74c14-16x9-x0y0w1280h720.jpg,2025-05-11 3:36 PM,https://7news.com.au/sport/rugby-league/brisbane-broncos-star-ezra-mam-lands-in-hot-water-again-during-comeback-game-c-18655520,7news.com.au,joel gould,"brisbane broncos star ezra mam lands in hot water again during comeback game 
+
+ the 22-year-old was slapped with a nine-week suspension for driving unlicensed with drugs in his system.",230,sports,0.5412048101425171,1,412,brisbane broncos star ezra mam lands in hot water again during comeback game,True,1412
+2025-05-12,jamie melham goes back-to-back in the goodwood with victory on reserve bank ,"the champion jockey triumphed on reserve bank, 12 months after winning the morphettville feature on benedetta.",https://images.7news.com.au/publication/C-18648861/1d57684e261f7f9978372ec8e1725bfeb90c4a77-16x9-x0y0w1280h720.jpg,2025-05-10 8:07 PM,https://7news.com.au/sport/horse-racing/jamie-melham-goes-back-to-back-in-the-goodwood-with-victory-on-reserve-bank--c-18648861,7news.com.au,craig brennan,"jamie melham goes back-to-back in the goodwood with victory on reserve bank  
+
+ the champion jockey triumphed on reserve bank, 12 months after winning the morphettville feature on benedetta.",323,sports,0.5675159692764282,1,412,jamie melham goes back-to-back in the goodwood with victory on reserve bank ,True,1412
+2025-05-12,latrell mitchell gets south sydney over the line in stunning comeback against brisbane broncos,the master coach continues to be amazed by his ‘special’ star who did something only ‘latrell can do’.,https://images.7news.com.au/publication/C-18644241/c51336075af66798421a5ef70c106f9e81aa50a1-16x9-x0y2w1304h734.jpg,2025-05-10 7:34 AM,https://7news.com.au/sport/rugby-league/latrell-mitchell-gets-south-sydney-over-the-line-in-stunning-comeback-against-brisbane-broncos-c-18644241,7news.com.au,jasper bruce,"latrell mitchell gets south sydney over the line in stunning comeback against brisbane broncos 
+
+ the master coach continues to be amazed by his ‘special’ star who did something only ‘latrell can do’.",424,sports,0.5306119918823242,1,412,latrell mitchell gets south sydney over the line in stunning comeback against brisbane broncos,True,1412
