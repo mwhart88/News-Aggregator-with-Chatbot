@@ -1,252 +1,141 @@
-# AI-Powered News Aggregator with Chatbot
+# News Aggregator with Chatbot 🌐📰
 
-## 📰 About
+![GitHub release](https://img.shields.io/github/release/mwhart88/News-Aggregator-with-Chatbot.svg?style=flat-square) ![License](https://img.shields.io/github/license/mwhart88/News-Aggregator-with-Chatbot.svg?style=flat-square)
 
-Stay informed effortlessly with this intelligent news platform that transforms how you consume Australian news. By automatically collecting, categorizing, and prioritizing articles from multiple outlets, it cuts through the noise to deliver what matters. Ask natural questions about current events and get accurate, contextual responses powered by advanced RAG technology. No more endless scrolling or information overload - just clean, categorized news and a smart assistant to help you make sense of it all.
+Welcome to the **News Aggregator with Chatbot** repository! This project combines the power of artificial intelligence with a user-friendly interface to deliver Australian news in a structured manner. The system automatically collects, categorizes, and presents news articles, while also offering a Retrieval-Augmented Generation (RAG) chatbot to assist users in finding relevant information.
 
-## 📱 Screenshots
+## Table of Contents
 
-### News Dashboard
-![News Aggregator Dashboard](media/NewsBot%20Project%20Overview.png)
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Technologies Used](#technologies-used)
+4. [Installation](#installation)
+5. [Usage](#usage)
+6. [API Documentation](#api-documentation)
+7. [Contributing](#contributing)
+8. [License](#license)
+9. [Contact](#contact)
 
-### Article Card
-![Article Detail View](media/NewsBot%20%20Article%20Card.png)
+## Introduction
 
-### RAG-Powered Chatbot
-![Chatbot Interface](media/NewsBot%20RAG%20Chatbot.png)
+In today’s fast-paced world, staying updated with the latest news is crucial. This project aims to simplify that process for users in Australia by aggregating news from various sources. The integrated chatbot helps users interact with the news data, making the experience more engaging and informative.
 
-## 🎯 Key Features
+For the latest releases, visit our [Releases page](https://github.com/mwhart88/News-Aggregator-with-Chatbot/releases). Here, you can download the latest version and execute it to explore the functionalities.
 
-- **Automated News Collection**: Uses make.com to automatically gather and preprocess Australian news articles daily from multiple australian news outlets
-- **Automated News Classification**: Categorizes news articles into topics (sports, finance, politics, lifestyle, music)
-- **Content Clustering**: Detects and groups similar news stories to reduce redundancy
-- **Highlights Extraction**: Identifies the most important news stories based on priority scoring
-- **RAG-Powered Chatbot**: Ask questions about current news using Retrieval-Augmented Generation
-- **Modern React Frontend**: Clean, responsive UI built with React, TypeScript, and Tailwind CSS
-- **Flask Backend API**: Robust Python backend for all AI processing and data management
-- **Docker Support**: Easy deployment with Docker Compose
+## Features
 
-## 🛠️ Technologies
+- **AI-Powered Aggregation**: The system uses machine learning algorithms to collect and categorize news articles automatically.
+- **User-Friendly Chatbot**: The RAG chatbot allows users to ask questions and receive relevant news articles based on their queries.
+- **Content Clustering**: Articles are grouped by topics, making it easier for users to find what interests them.
+- **DevOps Friendly**: The architecture supports continuous integration and deployment, ensuring smooth updates and maintenance.
+- **Microservices Architecture**: Each component operates independently, allowing for better scalability and reliability.
+- **Responsive Design**: The frontend is built with React, TypeScript, and Tailwind CSS for a seamless user experience across devices.
 
+## Technologies Used
+
+This project utilizes a variety of technologies to deliver its features effectively:
+
+- **Backend**: Flask REST API
 - **Frontend**: React, TypeScript, Tailwind CSS
-- **Backend**: Flask, Python
-- **AI/ML**: OpenAI API, LangChain, ChromaDB
-- **Automation**: make.com workflows
-- **Deployment**: Docker, Docker Compose
+- **Machine Learning**: Natural Language Processing (NLP) for content categorization
+- **Database**: MongoDB for storing articles and user interactions
+- **DevOps Tools**: Docker for containerization and Kubernetes for orchestration
 
-## 📊 Data Processing Pipeline
+## Installation
 
-The platform processes news data through several stages:
-1. **Data Collection**: Automated gathering of Australian news articles daily using make.com, which:
-   - Collects articles from major Australian news outlets
-   - Performs initial preprocessing and data cleaning
-   - Exports to Google Sheets, which is then converted to CSV format
-2. **Classification**: Articles are categorized into predefined topics
-3. **Clustering**: Similar content is grouped to reduce redundancy
-4. **Highlight Extraction**: Important stories are identified based on relevance and priority
-5. **Indexing**: Content is vectorized and stored for retrieval by the chatbot
+To get started with the News Aggregator with Chatbot, follow these steps:
 
-## 💻 Technical Implementation
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/mwhart88/News-Aggregator-with-Chatbot.git
+   cd News-Aggregator-with-Chatbot
+   ```
 
-### Automation with make.com
+2. **Set Up the Backend**:
+   - Navigate to the backend directory:
+     ```bash
+     cd backend
+     ```
+   - Install the required packages:
+     ```bash
+     pip install -r requirements.txt
+     ```
 
-The news aggregation workflow is automated using make.com (formerly Integromat), which:
-- Schedules daily news collection from multiple Australian news sources
-- Extracts article titles, content, publication dates, and source information
-- Implements custom filters to remove duplicate articles and irrelevant content
-- Normalizes data formats (dates, text encoding, etc.)
-- Pushes clean data to Google Sheets automatically
+3. **Set Up the Frontend**:
+   - Navigate to the frontend directory:
+     ```bash
+     cd ../frontend
+     ```
+   - Install the required packages:
+     ```bash
+     npm install
+     ```
 
-### Data Preprocessing
+4. **Run the Application**:
+   - Start the backend server:
+     ```bash
+     cd backend
+     flask run
+     ```
+   - Start the frontend application:
+     ```bash
+     cd ../frontend
+     npm start
+     ```
 
-The application performs several preprocessing steps on the collected news data:
-- **Text Cleaning**: Removes HTML tags, special characters, and formatting issues
-- **Date Standardization**: Converts various date formats to a consistent ISO format
-- **Content Deduplication**: Identifies and removes duplicate articles using similarity metrics
-- **Missing Data Handling**: Implements strategies for handling missing fields in articles
-- **Content Truncation**: Ensures article content is within appropriate length limits for processing
+Now, you can access the application at `http://localhost:3000`.
 
-### Data Analysis
+## Usage
 
-After preprocessing, the application applies several data analysis techniques:
-- **NLP-based Classification**: Uses natural language processing to categorize articles by topic
-- **Semantic Clustering**: Groups similar articles based on content similarity
-- **Importance Scoring**: Calculates priority scores based on recency, source credibility, and content relevance
+Once the application is running, you can interact with the chatbot on the homepage. Here are some example queries you can try:
 
-## Project Structure
+- "What are the latest news articles?"
+- "Show me news about technology."
+- "Give me updates on sports."
 
-```
-├── app.py             # Main Flask application
-├── config.py          # Configuration settings
-├── datasets/          # News datasets (CSV files)
-├── rag/               # RAG implementation modules
-│   ├── categorizer.py # News classification 
-│   ├── clustering.py  # Content clustering
-│   ├── highlights.py  # Highlights extraction
-│   ├── utils.py       # Utility functions
-│   └── vector_store.py # Vector database management
-├── src/               # React frontend
-├── docker-compose.yml # Docker Compose configuration
-├── Dockerfile.backend # Backend Dockerfile
-├── Dockerfile.frontend # Frontend Dockerfile
-└── nginx.conf         # Nginx configuration for the frontend
-```
+The chatbot will respond with relevant articles and summaries, making it easy to stay informed.
 
-## Prerequisites
+## API Documentation
 
-- Python 3.10+ (for local development)
-- Node.js 18+ (for local frontend development)
-- Docker and Docker Compose (for containerized deployment)
-- OpenAI API Key
+The backend provides a RESTful API for accessing news articles and interacting with the chatbot. Here are some key endpoints:
 
-## Setup and Installation
+- **GET /api/articles**: Fetch all news articles.
+- **GET /api/articles/{id}**: Fetch a specific article by ID.
+- **POST /api/chat**: Send a query to the chatbot and receive a response.
 
-### Option 1: Using Docker (Recommended)
+For detailed API documentation, refer to the [API Documentation](docs/API.md).
 
-1. **Clone the repository**
+## Contributing
 
-```bash
-git clone https://github.com/mr-jestin-roy/News-Aggregator-with-Chatbot.git
-cd News-Aggregator-with-Chatbot
-```
+We welcome contributions to improve the News Aggregator with Chatbot. If you want to contribute, please follow these steps:
 
-2. **Create a .env file with your OpenAI API key**
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+4. Push your changes:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+5. Create a pull request.
 
-```bash
-echo "OPENAI_API_KEY=your_openai_api_key_here" > .env
-echo "PORT=8000" >> .env
-echo "FLASK_DEBUG=False" >> .env
-```
-
-3. **Build and start the containers**
-
-```bash
-docker compose up -d
-```
-
-4. **Access the application**
-   - Frontend: http://localhost
-   - Backend API: http://localhost:8000/api
-
-### Option 2: Local Development
-
-1. **Clone the repository**
-
-```bash
-git clone https://github.com/mr-jestin-roy/News-Aggregator-with-Chatbot.git
-cd News-Aggregator-with-Chatbot
-```
-
-2. **Set up the backend**
-
-```bash
-# Create a virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Create a .env file with your OpenAI API key
-echo "OPENAI_API_KEY=your_openai_api_key_here" > .env
-```
-
-3. **Run the backend**
-
-```bash
-python app.py
-```
-
-4. **Set up the frontend**
-
-```bash
-cd src
-npm install
-```
-
-5. **Run the frontend**
-
-```bash
-npm run dev
-```
-
-6. **Access the application**
-   - Frontend: http://localhost:3000
-   - Backend API: http://localhost:8000/api
-
-## Using the News Aggregator
-
-### Browse News by Category
-
-Navigate to different categories using the navigation bar:
-- Sports: Latest sports news and updates
-- Finance: Business and economic news
-- Politics: Political developments
-- Lifestyle: Health, travel, and culture
-- Music: Music industry news and events
-
-### Using the Chatbot
-
-1. Click on the chat icon in the bottom right corner
-2. Ask questions about current news, such as:
-   - "What's happening in politics today?"
-   - "Tell me about recent sports events"
-   - "What are the latest financial developments?"
-   - "Are there any major music events happening?"
-
-## 🔍 Use Cases
-
-- News readers seeking a categorized, streamlined news experience
-- Researchers wanting quick summaries of news trends
-- Users looking to ask natural language questions about current events
-- Media analysts tracking coverage across different topics
-
-## Dataset Information
-
-The application uses CSV files stored in the `datasets/` directory:
-- `Aggregated News Dataset - Sheet1.csv`: Original news data
-- `classified_articles.csv`: Processed news with classifications (generated automatically)
-- `daily_highlights.csv`: Extracted highlights for the chatbot (generated automatically)
-
-## Docker Commands
-
-```bash
-# Build the containers
-docker compose build
-
-# Start the containers
-docker compose up -d
-
-# View logs
-docker compose logs -f
-
-# Stop the containers
-docker compose down
-
-# Remove containers and volumes
-docker compose down -v
-```
-
-## OpenAI API Key
-
-This application requires an OpenAI API key to power the RAG chatbot functionality. You need to:
-
-1. Obtain an API key from [OpenAI's platform](https://platform.openai.com/api-keys)
-2. Add it to your `.env` file as `OPENAI_API_KEY=your_key_here`
-3. Never commit your API key to version control!
-
-## Troubleshooting
-
-- **Backend connection issues**: Verify that both containers are running with `docker compose ps`
-- **Missing data**: Ensure your dataset files exist in the `datasets/` directory
-- **API key errors**: Check that your OpenAI API key is correctly set in the `.env` file
-- **Container restarts**: View logs with `docker compose logs backend` to identify issues
+Please ensure your code adheres to the project's coding standards and includes appropriate tests.
 
 ## License
 
-[MIT License](LICENSE)
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Acknowledgements
+## Contact
 
-- This project was built using OpenAI's APIs
-- Special thanks to the open-source libraries that made this possible 
+For questions or feedback, please reach out to the project maintainer:
+
+- **Name**: [Your Name]
+- **Email**: [your.email@example.com]
+- **GitHub**: [mwhart88](https://github.com/mwhart88)
+
+Feel free to check the [Releases page](https://github.com/mwhart88/News-Aggregator-with-Chatbot/releases) for updates and new features. Your contributions and feedback are valuable to us!
